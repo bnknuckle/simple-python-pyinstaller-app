@@ -50,7 +50,7 @@ pipeline {
                    nexusUrl: 'nexus.roundtower.io:8081',
                    groupId: 'apps',
                    version: '1.0',
-                   repository: '17-snapshot',
+                   repository: 'training17-snapshot',
                    credentialsId: 'NexusDefault',
                    artifacts: [
                        [artifactId: 'add2vals',
